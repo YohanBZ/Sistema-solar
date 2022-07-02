@@ -4,7 +4,8 @@ import initAccordion from './modules/accordion.js';
 import initTabNav from './modules/tabnav.js';
 import initModal from './modules/modal.js';
 import initDropdownMenu from './modules/dropdown-menu.js';
-import initMenuMobile from './modules/menu-mobile.js'
+import initMenuMobile from './modules/menu-mobile.js';
+import SlideNav from './modules/slide.js';
 
 
 
@@ -15,6 +16,12 @@ initTabNav();
 initModal();
 initDropdownMenu();
 initMenuMobile();
+
+
+const slide = new SlideNav ('.slide', '.slide-wrapper');
+slide.init();
+slide.addArrow('.prev', '.next');
+slide.addControl('.custom-controls');
 
 
 
