@@ -1,0 +1,73 @@
+.galeria {
+  margin-top: 60px;
+  grid-column: 1 / -1;
+}
+.slide-wrapper {
+  overflow: hidden;
+  grid-column: 1 / -1;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide:hover {
+  will-change: transform;
+}
+
+.slide li {
+  flex-shrink: 0;
+  width: 30vw;
+  max-width: 700px;
+  margin: 0 20px;
+  text-align: center;
+  opacity: .8;
+  transform: scale(.8);
+  transition: .4s;
+}
+
+.slide li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
+}
+
+.custom-controls li {
+  opacity: .7;
+  transform: scale(.7);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 2px;
+}
+
+.custom-controls li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.arrow-nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.arrow-nav button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 40px;
+  background: rgb(31, 3, 97) url(/img-plants/arrow.svg) center center no-repeat;
+}
+
+.arrow-nav button.prev {
+  transform: rotate(-180deg);
+}

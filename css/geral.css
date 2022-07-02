@@ -16,7 +16,8 @@ ul {
 
 /* style body */
 body{
-  background-image: url(/img-plants/back.jpg);
+  background-image: url(/img-plants/footer_bg_lower_mobile.jpg);
+  background-repeat: no-repeat;
   background-size: 100% ;
   max-width: 100%;
   color: #222;
@@ -83,7 +84,7 @@ body{
 /* style section */
 
 .grid-section {
-  background: white;
+  background:white;
   grid-column: 2 / 4;
   width: 100%;
   box-sizing: border-box;
@@ -322,5 +323,10 @@ body{
   .logo {
     width: 1px;
   }
-
+  
+  @media (max-width: 400px) {
+    body {
+      background: #222;
+    }
+  }
 }
