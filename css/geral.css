@@ -16,8 +16,7 @@ ul {
 
 /* style body */
 body{
-  background-image: url(/img-plants/footer_bg_lower_mobile.jpg);
-  background-repeat: no-repeat;
+  background-image: url(/img-plants/background.jpg);
   background-size: 100% ;
   max-width: 100%;
   color: #222;

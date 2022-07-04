@@ -1,5 +1,5 @@
 .galeria {
-  margin-top: 60px;
+  margin-top: 32px;
   grid-column: 1 / -1;
 }
 .slide-wrapper {
@@ -24,6 +24,7 @@
   opacity: .8;
   transform: scale(.8);
   transition: .4s;
+  color: white;
 }
 
 .slide li.active {
@@ -46,6 +47,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin: 2px;
+  margin-bottom: 2rem;
 }
 
 .custom-controls li.active {
