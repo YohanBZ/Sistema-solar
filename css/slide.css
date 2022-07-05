@@ -21,6 +21,8 @@
   max-width: 700px;
   margin: 0 20px;
   text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
   opacity: .8;
   transform: scale(.8);
   transition: .4s;
