@@ -8,6 +8,6 @@
   <li>JavaScript</li>
   <li>VScode</li>
  </ul>
- <h3> 🚧 Projeto em construção 🚧</h3>
+ <h3> 🚧 Project under construction 🚧</h3>
  
  <img width="600" src="https://user-images.githubusercontent.com/98111590/179361247-a445c9b1-0d66-4bb2-b884-868af8acc831.png">
