@@ -16,7 +16,7 @@ ul {
 
 /* style body */
 body{
-  background-image: url(/img-plants/background.jpg);
+  background-image: url(../img-plants/background.jpg);
   background-size: 100% ;
   max-width: 100%;
   color: #222;
